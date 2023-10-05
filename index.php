@@ -1,9 +1,14 @@
-<?php
+<!DOCTYPE html>
+<html <?php language_attributes();?>>
+<head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>"/>
+</head>
 
-while(have_posts()){
-    the_post(); ?>
-    <h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
-    <?php the_content();?>
-    <hr>
-<?php }
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 
+(template)
+
+<?php wp_footer(); ?>
+</body>
+</html>
