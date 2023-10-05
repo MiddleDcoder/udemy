@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html <?php language_attributes();?>>
+<html lang="ar">
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :lang(ar) {
+            direction: rtl;
+        }
+    </style>
 </head>
-
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-
-(template)
-
-<?php wp_footer(); ?>
+<body>
+    <p>Hello World!</p>   
 </body>
 </html>
