@@ -3,7 +3,10 @@
     "version": 2,
     "settings": {
         "color": {
-           "defaultPalette": false 
+           "defaultPalette": false,
+           "palette": [
+            { "slug": "u-white", "color": "rgb(255,255,255)", "name": "Udemy White" }
+           ]
         },
         "blocks": {
             "core/site-title":{
