@@ -4,6 +4,13 @@
     "settings": {
         "color": {
            "defaultPalette": false 
+        },
+        "blocks": {
+            "core/site-title":{
+                "color": {
+                    "defaultPalette": true 
+                 }
+            }
         }
     }
 }
