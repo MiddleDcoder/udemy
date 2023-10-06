@@ -21,7 +21,10 @@
             { "slug": "u-info", "color": "rgb(96 165 250)", "name": "Udemy Info" },
             { "slug": "u-warning", "color": "rgb(251 146 60)", "name": "Udemy Warning" },
             { "slug": "u-danger", "color": "rgb(236 72 153)", "name": "Udemy Danger" }
-           ]
+           ],
+           "background": true,
+           "text": true,
+           "link": true
         },
         "blocks": {
             "core/site-title":{
@@ -29,7 +32,8 @@
                     "defaultPalette": true,
                     "palette": [
                         {"slug": "u-primary", "color": "#ef4444", "name": "Udemy Primary"}
-                    ]
+                    ],
+                    "link": true
                  }
             }
         }
