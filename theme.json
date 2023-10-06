@@ -28,6 +28,14 @@
            "custom": true,
            "duotone": [
             { "slug": "u-pink-sunset", "colors": ["#11245e", "#dc4379"], "name": "Udemy Pink Sunset" }
+           ],
+           "defaultGradients": false,
+           "gradients": [
+            {
+              "slug": "u-summer-dog",
+              "name": "Udemy Summer Dog",
+              "gradient": "linear-gradient(#a8ff78, #78ffd6)"
+            }
            ]
         },
         "blocks": {
@@ -38,7 +46,9 @@
                         {"slug": "u-primary", "color": "#ef4444", "name": "Udemy Primary"}
                     ],
                     "link": true,
-                    "custom": false
+                    "custom": false,
+                    "gradients": [],
+                    "customGradient": false
                  }
             },
             "core/cover": {
