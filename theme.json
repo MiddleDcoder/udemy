@@ -125,7 +125,8 @@
     },
     "styles": {
         "color": {
-            "text": "rgb(55 65 81)"
+            "text": "var(--wp--preset--color--u-gray-700)",
+            "background": "var(--wp--preset--color--white)"
         }
     }
 }
