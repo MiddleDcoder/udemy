@@ -24,7 +24,8 @@
            ],
            "background": true,
            "text": true,
-           "link": true
+           "link": true,
+           "custom": false
         },
         "blocks": {
             "core/site-title":{
@@ -33,7 +34,8 @@
                     "palette": [
                         {"slug": "u-primary", "color": "#ef4444", "name": "Udemy Primary"}
                     ],
-                    "link": true
+                    "link": true,
+                    "custom": false
                  }
             }
         }
