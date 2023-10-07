@@ -212,7 +212,21 @@
                     "style": "solid",
                     "color": "var(--wp--preset--color--u-primary)"
                 }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--u-pacifico)"
+                }
             }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--u-rubik)",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": "inherit",
+            "textDecoration": "none",
+            "textTransform": "none"
         }
     }
 }
