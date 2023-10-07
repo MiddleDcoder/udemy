@@ -192,7 +192,14 @@
         },
         "spacing": {
             "margin": true,
-            "padding": true
+            "padding": true,
+            "units": [
+                "px",
+                "rem",
+                "vh",
+                "vw",
+                "%"
+            ]
         }
     },
     "styles": {
