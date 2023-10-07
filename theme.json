@@ -199,7 +199,8 @@
                 "vh",
                 "vw",
                 "%"
-            ]
+            ],
+            "blockGap": true
         }
     },
     "styles": {
@@ -255,7 +256,8 @@
                 "bottom": "0px",
                 "left": "0px",
                 "right": "0px"
-            }
+            },
+            "blockGap": "4rem"
         }
     }
 }
