@@ -13,4 +13,8 @@ function u_enqueue() {
         'u_theme',
         get_theme_file_uri('assets/public/index.css')
     );
+
+    wp_enqueue_style('u_font_rubik_and_pacifico');
+    wp_enqueue_style('u_bootstrap_icons');
+    wp_enqueue_style('u_theme');
 }
