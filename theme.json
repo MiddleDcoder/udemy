@@ -131,7 +131,7 @@
       "blocks": {
         "core/button": {
           "color": {
-            "gradient": "var(--wp--preset--gradient--u-summer-dog)"
+            "gradient": "var(--wp--preset--color--u-primary)"
           }
         },
         "core/pullquote": {
